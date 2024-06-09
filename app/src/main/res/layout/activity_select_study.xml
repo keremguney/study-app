@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Study Subject"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSubjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioMath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Math" />
+
+        <RadioButton
+            android:id="@+id/radioEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English" />
+
+        <RadioButton
+            android:id="@+id/radioPhysics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Physics" />
+
+        <RadioButton
+            android:id="@+id/radioChemistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chemistry" />
+
+        <RadioButton
+            android:id="@+id/radioBiology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biology" />
+
+        <RadioButton
+            android:id="@+id/radioGeography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geography" />
+
+        <RadioButton
+            android:id="@+id/radioHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History" />
+        <!-- Add more RadioButtons for other subjects -->
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

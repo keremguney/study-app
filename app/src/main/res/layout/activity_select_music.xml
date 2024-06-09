@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick your perfect study soundtrack!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSoundtrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonRock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rock" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pop" />
+
+        <RadioButton
+            android:id="@+id/radioButtonJazz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jazz" />
+
+        <RadioButton
+            android:id="@+id/radioButtonClassical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classical" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHipHop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hip-Hop" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue" />
+
+    </LinearLayout>
+</LinearLayout>
